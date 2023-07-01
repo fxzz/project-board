@@ -1,7 +1,6 @@
 package com.example.projectboard.controller;
 
 import com.example.projectboard.config.SecurityConfig;
-import io.micrometer.core.instrument.binder.http.HttpRequestTags;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
