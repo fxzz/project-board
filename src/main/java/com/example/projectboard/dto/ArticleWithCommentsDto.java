@@ -1,5 +1,6 @@
 package com.example.projectboard.dto;
 
+
 import com.example.projectboard.domain.Article;
 
 import java.time.LocalDateTime;

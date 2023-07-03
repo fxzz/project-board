@@ -1,4 +1,4 @@
-package com.example.projectboard.repository.querdsl;
+package com.example.projectboard.repository.querydsl;
 
 import java.util.List;
 
