@@ -29,13 +29,10 @@ import static org.mockito.BDDMockito.*;
 @ExtendWith(MockitoExtension.class)
 class ArticleCommentServiceTest {
 
-    @InjectMocks
-    private ArticleCommentService sut;
+    @InjectMocks private ArticleCommentService sut;
 
-    @Mock
-    private ArticleRepository articleRepository;
-    @Mock
-    private ArticleCommentRepository articleCommentRepository;
+    @Mock private ArticleRepository articleRepository;
+    @Mock private ArticleCommentRepository articleCommentRepository;
 
     @DisplayName("게시글 ID로 조회하면, 해당하는 댓글 리스트를 반환한다.")
     @Test
@@ -150,7 +147,6 @@ class ArticleCommentServiceTest {
 
     private UserAccountDto createUserAccountDto() {
         return UserAccountDto.of(
-                1L,
                 "uno",
                 "password",
                 "uno@mail.com",
@@ -189,4 +185,5 @@ class ArticleCommentServiceTest {
                 "#java"
         );
     }
+
 }
