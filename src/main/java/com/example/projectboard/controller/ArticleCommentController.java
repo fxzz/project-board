@@ -1,5 +1,6 @@
 package com.example.projectboard.controller;
 
+
 import com.example.projectboard.dto.request.ArticleCommentRequest;
 import com.example.projectboard.dto.security.BoardPrincipal;
 import com.example.projectboard.service.ArticleCommentService;
@@ -17,7 +18,7 @@ public class ArticleCommentController {
 
     private final ArticleCommentService articleCommentService;
 
-    @PostMapping("/new")
+    @PostMapping ("/new")
     public String postNewArticleComment(
             @AuthenticationPrincipal BoardPrincipal boardPrincipal,
             ArticleCommentRequest articleCommentRequest

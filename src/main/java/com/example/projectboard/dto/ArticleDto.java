@@ -1,14 +1,14 @@
 package com.example.projectboard.dto;
 
+
 import com.example.projectboard.domain.Article;
 import com.example.projectboard.domain.UserAccount;
-
 
 import java.time.LocalDateTime;
 
 public record ArticleDto(
         Long id,
-        UserAccountDto userAccountDto,
+       UserAccountDto userAccountDto,
         String title,
         String content,
         String hashtag,

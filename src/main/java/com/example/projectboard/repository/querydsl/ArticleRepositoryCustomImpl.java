@@ -1,4 +1,4 @@
-package com.example.projectboard.repository.querdsl;
+package com.example.projectboard.repository.querydsl;
 
 import com.example.projectboard.domain.Article;
 import com.example.projectboard.domain.QArticle;
@@ -22,4 +22,5 @@ public class ArticleRepositoryCustomImpl extends QuerydslRepositorySupport imple
                 .where(article.hashtag.isNotNull())
                 .fetch();
     }
+
 }

@@ -1,5 +1,6 @@
 package com.example.projectboard.dto;
 
+
 import com.example.projectboard.domain.Article;
 import com.example.projectboard.domain.ArticleComment;
 import com.example.projectboard.domain.UserAccount;
@@ -9,7 +10,7 @@ import java.time.LocalDateTime;
 public record ArticleCommentDto(
         Long id,
         Long articleId,
-        UserAccountDto userAccountDto,
+       UserAccountDto userAccountDto,
         String content,
         LocalDateTime createdAt,
         String createdBy,
@@ -20,7 +21,7 @@ public record ArticleCommentDto(
     public static ArticleCommentDto of(Long articleId, UserAccountDto userAccountDto, String content) {
         return new ArticleCommentDto(null, articleId, userAccountDto, content, null, null, null, null);
     }
-    public static ArticleCommentDto of(Long id, Long articleId, UserAccountDto userAccountDto, String content, LocalDateTime createdAt, String createdBy, LocalDateTime modifiedAt, String modifiedBy) {
+    public static ArticleCommentDto of(Long id, Long articleId,UserAccountDto userAccountDto, String content, LocalDateTime createdAt, String createdBy, LocalDateTime modifiedAt, String modifiedBy) {
         return new ArticleCommentDto(id, articleId, userAccountDto, content, createdAt, createdBy, modifiedAt, modifiedBy);
     }
 

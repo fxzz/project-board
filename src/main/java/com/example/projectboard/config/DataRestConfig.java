@@ -1,5 +1,6 @@
 package com.example.projectboard.config;
 
+
 import com.example.projectboard.domain.UserAccount;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

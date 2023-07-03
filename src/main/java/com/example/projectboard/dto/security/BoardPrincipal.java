@@ -1,5 +1,6 @@
 package com.example.projectboard.dto.security;
 
+
 import com.example.projectboard.dto.UserAccountDto;
 import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;

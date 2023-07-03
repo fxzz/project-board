@@ -3,7 +3,7 @@ package com.example.projectboard.service;
 
 import com.example.projectboard.domain.Article;
 import com.example.projectboard.domain.UserAccount;
-import com.example.projectboard.domain.type.SearchType;
+import com.example.projectboard.domain.constant.SearchType;
 import com.example.projectboard.dto.ArticleDto;
 import com.example.projectboard.dto.ArticleWithCommentsDto;
 import com.example.projectboard.repository.ArticleRepository;
