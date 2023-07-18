@@ -8,6 +8,7 @@ import com.example.projectboard.domain.constant.SearchType;
 import com.example.projectboard.dto.ArticleDto;
 import com.example.projectboard.dto.ArticleWithCommentsDto;
 import com.example.projectboard.repository.ArticleRepository;
+import com.example.projectboard.repository.HashtagRepository;
 import com.example.projectboard.repository.UserAccountRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
